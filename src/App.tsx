@@ -35,7 +35,7 @@ function App() {
       if (active) setPhase('error')
       controller.abort()
     }, 60000)
-    const images = ['bg-scene.jpg', 'character-left.png', 'character-right.png', 'character-boy-4k.png', 'character-grenadier-4k.png', 'bg-mobile.jpg']
+    const images = ['bg-scene.webp', 'character-left.webp', 'character-right.webp', 'character-boy-4k.webp', 'character-grenadier-4k.webp', 'bg-mobile.webp']
     const imageJobs = images.map(async (file) => {
       const image = new Image()
       image.src = `${base}${file}`
@@ -131,11 +131,11 @@ function App() {
         <p>BATTLE ROYALE GAME</p>
       </div>
       <div className="game-scene" aria-hidden="true">
-        <img className="scene-layer scene-backdrop" src={`${import.meta.env.BASE_URL}images/bg-scene.jpg`} alt="" />
-        <img className="scene-layer character-left" src={`${import.meta.env.BASE_URL}images/character-left.png`} alt="" />
-        <img className="scene-layer character-right" src={`${import.meta.env.BASE_URL}images/character-right.png`} alt="" />
-        <img className="character-boy" src={`${import.meta.env.BASE_URL}images/character-boy-4k.png`} alt="" />
-        <img className="character-grenadier" src={`${import.meta.env.BASE_URL}images/character-grenadier-4k.png`} alt="" />
+        <img className="scene-layer scene-backdrop" src={`${import.meta.env.BASE_URL}images/bg-scene.webp`} alt="" />
+        <img className="scene-layer character-left" src={`${import.meta.env.BASE_URL}images/character-left.webp`} alt="" />
+        <img className="scene-layer character-right" src={`${import.meta.env.BASE_URL}images/character-right.webp`} alt="" />
+        <img className="character-boy" src={`${import.meta.env.BASE_URL}images/character-boy-4k.webp`} alt="" />
+        <img className="character-grenadier" src={`${import.meta.env.BASE_URL}images/character-grenadier-4k.webp`} alt="" />
       </div>
       <div className="play-menu">
         <div className="server-bar">
@@ -176,7 +176,7 @@ function App() {
           <p className="play-price">$99.45 <span>USD</span></p>
           <p id="play-modal-description" className="modal-description">The price to play on the {server} server in Asia is $99.45.</p>
           <div className="gcash-payment">
-            <div className="gcash-heading"><img src={`${import.meta.env.BASE_URL}images/gcash-logo.avif`} alt="GCash" /><span>PAYMENT TO PLAY</span></div>
+            <div className="gcash-heading"><img src={`${import.meta.env.BASE_URL}images/gcash-logo.webp`} alt="GCash" /><span>PAYMENT TO PLAY</span></div>
             <p>To play, send your payment to this GCash account:</p>
             <div className="gcash-account"><strong>09627905690</strong><button onClick={async () => {
               try {

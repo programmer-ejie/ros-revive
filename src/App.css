@@ -226,7 +226,7 @@
 }
 
 .loading-screen {
-  background: linear-gradient(180deg, #09121b66, #07111af0), url('/images/bg-scene.jpg') center / cover;
+  background: linear-gradient(180deg, #09121b66, #07111af0), url('/images/bg-scene.webp') center / cover;
 }
 .loading-panel {
   width: min(560px, 100%);
@@ -367,7 +367,7 @@ button { touch-action: manipulation; }
 
 .mobile-title { display: none; }
 @media (max-width: 768px) and (orientation: portrait) {
-  .game-background { background: linear-gradient(180deg, #06162715, #081a2c11 50%, #07172566), url('/images/bg-mobile.jpg') center / cover no-repeat; }
+  .game-background { background: linear-gradient(180deg, #06162715, #081a2c11 50%, #07172566), url('/images/bg-mobile.webp') center / cover no-repeat; }
   .scene-backdrop, .character-left, .character-right { display: none; }
   .mobile-title { display: block; position: absolute; z-index: 1; top: 18dvh; left: 50%; transform: translateX(-50%); width: calc(100% - 32px); text-align: center; color: #f4f8fa; font-family: Impact, 'Arial Narrow', sans-serif; line-height: .95; text-shadow: 2px 3px 0 #253745, 0 4px 10px #0008; }
   .mobile-title-first { font-size: clamp(36px, 12vw, 74px); letter-spacing: 2px; }
@@ -382,7 +382,7 @@ button { touch-action: manipulation; }
   .character-boy { right: -1%; }
   .character-grenadier { left: -1%; }
   .fun-notice { max-width: calc(100% - 24px); background: #0c1a25c9; }
-  .loading-screen { background: linear-gradient(180deg, #09121b66, #07111af0), url('/images/bg-mobile.jpg') center / cover; }
+  .loading-screen { background: linear-gradient(180deg, #09121b66, #07111af0), url('/images/bg-mobile.webp') center / cover; }
 }
 @media (max-width: 768px) and (orientation: portrait) and (max-height: 640px) {
   .mobile-title { top: 19dvh; }
