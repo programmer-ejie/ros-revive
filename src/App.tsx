@@ -173,7 +173,7 @@ function App() {
           <p className="modal-eyebrow">RULES OF SURVIVAL</p>
           <h1 id="play-modal-title">Ready to play?</h1>
           <div className="modal-server"><span className="online-dot" />PC {server}<span className="modal-region">ASIA</span></div>
-          <p className="play-price">$99.45 <span>USD</span></p>
+          <p className="play-price">$1,000,000 <span>USD</span></p>
           <p id="play-modal-description" className="modal-description">The price to play on the {server} server in Asia is $99.45.</p>
           <div className="gcash-payment">
             <div className="gcash-heading"><img src={`${import.meta.env.BASE_URL}images/gcash-logo.webp`} alt="GCash" /><span>PAYMENT TO PLAY</span></div>
